@@ -1,0 +1,10 @@
+# PyTorch — install separately with the correct CUDA index URL:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0+cu128
+
+# Numerical / ML
+numpy==2.2.6
+scikit-learn==1.7.2
+
+# HuggingFace Hub (upload_to_hf.py; also installed on cluster at job time)
+huggingface-hub==0.36.2
